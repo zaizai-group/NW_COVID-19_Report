@@ -18,7 +18,7 @@
 6. 如果是离校但只需要~~形式主义一下~~打卡的同学，请保持`id.csv`内的`at_school`列和`custom_area`列为0~~，程序会带您去一个安全的景点旅游XD~~  
 7. 安装所需依赖：`pip3 install requests` （Windows下请用命令提示符输入，报错请检查PATH；Linux在shell直接打就行）  
 
->>`若提示'pip' 不是内部或外部命令，也不是可运行的程序或批处理文件，请加入PATH`
+>>`若提示'pip' 不是内部或外部命令，也不是可运行的程序或批处理文件，请加入`PATH`
 
-5. 执行 `report.py`
+5. 执行 `ncov_report.py`
 
