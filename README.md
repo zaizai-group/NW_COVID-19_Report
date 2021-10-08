@@ -22,3 +22,21 @@
 
 5. 执行 `ncov_report.py`
 
+
+### Linux：使用 Crontab
+
+```shell script
+sudo crontab -e
+```
+
+每天早晨 6 点上报
+
+```shell script
+0 6 * * * python3 /home/report/ncov_report.py
+```
+
+每两小时上报一次并追加输出到日志
+
+```shell script
+0 */2 * * * python3 /home/report/ncov_report.py >> report.log
+```
