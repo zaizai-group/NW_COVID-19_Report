@@ -4,7 +4,7 @@ import time
 import requests
 
 filename = "id.csv"  # 最好填写csv绝对路径，默认为$PWD工作路径
-url = "https://xxxxxx大西北某nwafu学校的网站地址/ncov/wap/default/save"
+url = "https://xxxxxx大西北某nw学校的网站地址/ncov/wap/default/save"
 
 
 def post_and_print(s, url, data, headers, cookies):
